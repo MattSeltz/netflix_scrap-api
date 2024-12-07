@@ -17,6 +17,10 @@ const moviesSchema = new Schema({
     type: String,
     required:true
   },
+  img: {
+    type: String,
+    required:true
+  }
 }, { timestamps: true })
 
 export const Movie = model("Movie", moviesSchema)
