@@ -4,14 +4,19 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start":"node --env-file .env src/index.js",
-    "dev":"node --watch --env-file .env src/index.js"
+    "start": "node --env-file .env src/index.js",
+    "dev": "node --watch --env-file .env src/index.js"
   },
-  "keywords": ["API","MOVIES","NETFLIX"],
+  "keywords": [
+    "API",
+    "MOVIES",
+    "NETFLIX"
+  ],
   "author": "Matías Seltzer",
   "license": "ISC",
   "description": "Api of Netflix scrap project",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongoose": "^8.8.4"
   }
